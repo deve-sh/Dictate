@@ -1,0 +1,58 @@
+* {
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	width: 100vw;
+	overflow-x: hidden;
+	margin: 0;
+	padding: 0.75rem;
+	line-height: 1.61;
+}
+
+textarea {
+	resize: vertical;
+	width: 100%;
+	min-height: 30vh;
+	outline: none;
+	border: 0.0125rem solid #cfcfcf;
+	padding: 0.75rem;
+	border-radius: 0.25rem;
+}
+
+button {
+	outline: none;
+	padding: 0.75rem;
+	border: none;
+	color: white;
+	background-color: #313131;
+	border-radius: 0.25rem;
+	border: 0.0125rem solid #313131;
+	cursor: pointer;
+}
+
+button.secondary {
+	background-color: transparent;
+	border: 0.0125rem solid #313131;
+	color: #313131;
+}
+
+.h-stack {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 1rem;
+	margin-top: 1.125rem;
+}
+
+.h-stack button {
+	flex: 1;
+}
+
+.error-message {
+	color: red;
+	font-weight: 500;
+}
